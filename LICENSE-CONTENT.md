@@ -11,7 +11,7 @@ toute réutilisation nécessite l'autorisation écrite de l'association, des
 photographes et des personnes photographiées.
 
 ## Polices
-Poppins, Open Sans et Caveat sont distribuées sous licence SIL Open Font License 1.1 (Google Fonts).
+Fredoka, Open Sans et Caveat sont distribuées sous licence SIL Open Font License 1.1 (Google Fonts).
 
 ## Code
 Voir le fichier `LICENSE` (MIT).
