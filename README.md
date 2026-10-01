@@ -33,9 +33,9 @@ Les encadrés pointillés `class="slot"` sont des emplacements pour de futures p
 
 ## Publier sur GitHub Pages
 
-1. Créer un dépôt GitHub (ex. `yas-yoga`) et y pousser ce dossier :
+1. Créer un dépôt GitHub (`Yoga_Website`) et y pousser ce dossier :
    ```bash
-   git remote add origin https://github.com/VOTRE-COMPTE/yas-yoga.git
+   git remote add origin https://github.com/GeomarkSIG/Yoga_Website.git
    git branch -M main
    git push -u origin main
    ```

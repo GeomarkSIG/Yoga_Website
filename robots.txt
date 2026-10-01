@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 # Remplacer par l'URL définitive du site
-Sitemap: https://VOTRE-COMPTE.github.io/yas-yoga/sitemap.xml
+Sitemap: https://geomarksig.github.io/Yoga_Website/sitemap.xml
