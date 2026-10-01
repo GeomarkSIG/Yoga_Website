@@ -72,3 +72,16 @@ h1,h2,h3,h4{font-weight:600}
 @media(max-width:1060px){.section{border-radius:44px 44px 0 0}.s-violet{border-radius:48px}}
 @media(max-width:560px){.s-violet .container{padding:0 20px}.stat{width:160px;height:160px}.stat .n{font-size:1.9rem}}
 .card.c-indigo{background:var(--indigo)}.card.c-indigo h3{color:#fff}.card.c-indigo p{color:#d6dcf5}.card.c-indigo .more{color:var(--yellow)}.card.c-indigo .ico-wrap{background:var(--violet);color:var(--indigo)}
+/* schéma d'impact : liste de bulles sur mobile */
+.impact-list{display:none;list-style:none;gap:12px;grid-template-columns:1fr}
+.impact-list li{background:var(--peach);border-radius:36px;padding:16px 22px;font-size:.92rem;color:var(--indigo)}
+.impact-list li b{display:block;font-family:var(--fH);color:var(--coral-700);text-transform:uppercase;font-size:.85rem;letter-spacing:1px}
+.impact-list li:nth-child(even){background:var(--mint-200)}.impact-list li:nth-child(even) b{color:var(--teal-700)}
+.impact-list .hubli{background:var(--teal);text-align:center;border-radius:999px}.impact-list .hubli b{color:#fff;font-size:1.1rem;text-transform:none}
+@media(max-width:700px){.impact svg{display:none}.impact-list{display:grid}}
+/* lisibilité des textes gris sur fonds colorés */
+.s-violet [style*="ink-soft"],.s-orange [style*="ink-soft"]{color:var(--indigo)!important}
+.s-deepgreen [style*="ink-soft"]{color:#e4f4ec!important}
+.s-violet .bulle,.s-orange .bulle{background:var(--butter);color:var(--indigo)}
+.s-violet .bulle p,.s-orange .bulle p{color:var(--indigo)}
+.s-violet .bulle.mint,.s-orange .bulle.mint{background:#fff}
